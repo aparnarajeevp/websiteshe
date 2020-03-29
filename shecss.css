@@ -1,0 +1,88 @@
+body{
+	background-color: #F3D4D4;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 30px;
+	line-height: 2em;
+	margin: 0;
+}
+
+.container{
+	width:90%;
+	margin:auto;
+	overflow:hidden;
+}
+#mainHeader{
+	background-color:#4F3961;
+	color: #FC9D9D;
+	text-shadow: 2px 2px 4px #FC9D9D; 
+	text-align: center;
+	
+
+}
+
+#navbar{
+	background-color:#EA728C;
+	color:#fff;
+	text-align: center;
+}
+
+#navbar ul{
+	list-style: none;
+	text-align:center; position: relative; 
+    display: inline;
+}
+
+#navbar li{
+	display:inline;
+	text-align: center;
+	flex: 1;
+}
+
+#navbar a{
+	color:#4F3961;
+	font-size:20px;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 50px;
+	font-weight: bold;
+}
+
+#bgImage{
+	background-image:url('5.jpeg');
+	background-position:center;
+	min-height:230px;
+	margin-bottom:30px;
+	text-align: center;
+}
+#main{
+	float: left;
+	width: 70%;
+	color: #4F3961;
+	padding:;
+	box-sizing: border-box;
+	background-color:#EA728C;
+	padding: 10px 10px 30px 10px;
+	font-size: 20px;
+	
+	line-height: 1.5em;
+	margin-left: 20px;
+}
+
+.button{
+	background-color:#4F3961;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background: #3fc9d9d;
+	color:#fff;
+}
+
+.myForm{
+	float: right;
+	width: 20%;
+	margin-top: 0in;
+
+}
